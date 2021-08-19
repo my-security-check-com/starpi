@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catgories",
+  "info": {
+    "name": "Kategorien",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "parents": {
+      "collection": "kategorien"
+    },
+    "features": {
+      "collection": "feature"
+    },
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages.page"
+    }
+  }
+}

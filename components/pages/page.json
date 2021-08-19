@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pages_pages",
+  "info": {
+    "name": "page",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "exturl": {
+      "type": "string"
+    }
+  }
+}
