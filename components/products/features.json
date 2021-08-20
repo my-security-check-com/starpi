@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_features",
+  "info": {
+    "name": "features",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

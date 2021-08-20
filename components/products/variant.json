@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_products_variants",
+  "info": {
+    "name": "Variant",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.features"
+    }
+  }
+}
