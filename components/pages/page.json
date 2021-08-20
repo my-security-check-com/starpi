@@ -14,12 +14,17 @@
     "text": {
       "type": "richtext"
     },
-    "path": {
+    "slug": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": false,
+      "maxLength": 255
     },
     "exturl": {
       "type": "string"
+    },
+    "shortdesc": {
+      "type": "text"
     }
   }
 }

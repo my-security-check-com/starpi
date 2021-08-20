@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "product",
   "info": {
     "name": "Products",
     "description": ""
@@ -10,11 +10,12 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
-    "subtitle": {
-      "type": "string"
-    },
     "picture": {
       "collection": "file",
       "via": "related",
@@ -25,19 +26,43 @@
       ],
       "plugin": "upload",
       "required": false,
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "price": {
-      "type": "string"
-    },
-    "features": {
-      "collection": "feature"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "page": {
       "type": "component",
       "repeatable": false,
       "component": "pages.page",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "variants": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "products.variant"
+    },
+    "categories": {
+      "collection": "kategorien"
     }
   }
 }

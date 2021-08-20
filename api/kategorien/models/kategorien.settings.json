@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "catgories",
+  "collectionName": "category",
   "info": {
-    "name": "Kategorien",
+    "name": "Categories",
     "description": ""
   },
   "options": {
@@ -16,19 +16,8 @@
     }
   },
   "attributes": {
-    "subtitle": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "parents": {
       "collection": "kategorien"
-    },
-    "features": {
-      "collection": "feature"
     },
     "page": {
       "type": "component",
@@ -38,7 +27,8 @@
           "localized": true
         }
       },
-      "component": "pages.page"
+      "component": "pages.page",
+      "required": true
     }
   }
 }
