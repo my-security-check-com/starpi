@@ -25,6 +25,12 @@
     },
     "shortdesc": {
       "type": "text"
+    },
+    "alternativeSlug": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.alternative-slug",
+      "required": false
     }
   }
 }
