@@ -7,13 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "text": {
-      "type": "richtext"
-    },
     "slug": {
       "type": "string",
       "required": true,
@@ -22,9 +15,6 @@
     },
     "exturl": {
       "type": "string"
-    },
-    "shortdesc": {
-      "type": "text"
     },
     "alternativeSlug": {
       "type": "component",

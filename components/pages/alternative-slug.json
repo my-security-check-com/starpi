@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_alternative_slugs",
+  "info": {
+    "name": "alternativeSlug",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    }
+  }
+}
